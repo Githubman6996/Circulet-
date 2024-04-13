@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/media/favicon.png">
+    <meta name="theme-color" content="#00FFFF">
+    <meta property="og:image" content="/media/favicon.png">
+    <meta content="Circulet" property="og:title">
+    <meta content="Blooket but with circles instead of blooks!" property="og:description">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://kit-pro.fontawesome.com/releases/v6.4.0/css/pro.min.css" rel="stylesheet" type="text/css" />
+    <script src="/js/all.js" defer></script>
+    <script src="/js/themes.js" defer></script>
+    <script src="/js/signup.js" defer></script>
+    <script src="/js/notifications.js" defer></script>
+    <title>Signup | Circulet</title>
+</head>
+<body>
+    <div class="headerBar">
+        <a href="/"><div class="headerLogo">Circulet</div></a>
+        <div class="headerVersion">v1.0.0</div>
+    </div>
+    <div class="mainBody">
+        <form class="centerContainer">
+            <div class="containerHeader2">Signup</div>
+            <div class="conatinerSubheader">Username</div>
+            <div class="inputContainer">
+                <i class="inputIcon fas fa-user"></i>
+                <input class="inputClass" placeholder="Username" type="text" autocomplete="username" value="" maxlength="16" id="username">
+            </div>
+            <div class="conatinerSubheader">Password</div>
+            <div class="inputContainer">
+                <i class="inputIcon fas fa-key"></i>
+                <input class="inputClass" placeholder="Password" type="password" autocomplete="current-password" value="" id="password">
+            </div>
+            <input type="submit" class="containerButton" tabindex="0" value="Sign Up">
+            <div class="errorContainer">
+                <p id="errorText">Error Text goes here</p>
+            </div> 
+            <div class="helpLink">Already have an account? <a href="/login">Login</a></div>
+        </form>
+    </div>
+
+    <div class="circlesBg"></div>
+
+</body>
+</html>
